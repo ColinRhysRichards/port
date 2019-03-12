@@ -1,18 +1,60 @@
-/* preloaderSection */
-#preloaderSection{
-    height: 100vw;
-    background-color: black;
+/* body section */
+
+body{
+    margin: 0%;
+    padding: 0%;
 }
-.preloaderText{
+
+
+/* preloaderSection */
+
+#preloaderSection{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0%;
+    margin: 0%;
+}
+#preloaderText{
+    margin-left: 50vw;
+    margin-right: 50vw;
+}
+.preloaderColin{
     color: white;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
-.preloaderText.animate {
+.preloaderRichards{
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+h1 {
+    font-size: 4em;
+  }
+h1 span {
+    background:
+      linear-gradient(rgb(252, 111, 146),rgb(252, 111, 146)) left no-repeat,
+      rgb(0, 0, 0);
+    background-size:0% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation:loading 2s forwards linear;
+  }
+  
+  @keyframes loading {
+    100% {
+      background-size:100% 100%;
+    }
+  }
+/* .preloaderText.animate {
     animation-name: preloader;
     color: white;
     text-align: center;
-    height: 50vw;
 }
 
 @keyframes preloader{
@@ -37,4 +79,4 @@
         background: #f00;
      }
         
-}
+} */
