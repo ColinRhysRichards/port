@@ -1,0 +1,40 @@
+/* preloaderSection */
+#preloaderSection{
+    height: 100vw;
+    background-color: black;
+}
+.preloaderText{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.preloaderText.animate {
+    animation-name: preloader;
+    color: white;
+    text-align: center;
+    height: 50vw;
+}
+
+@keyframes preloader{
+    0% {
+        bottom: 0;
+        left: 340px;
+        background: #f00;
+     }
+     33% {
+        bottom: 0;
+        left: 340px;
+        background: #f00;
+     }
+     66% {
+        bottom: 0;
+        left: 340px;
+        background: #f00;
+     }
+     100% {
+        bottom: 0;
+        left: 340px;
+        background: #f00;
+     }
+        
+}
